@@ -19,3 +19,6 @@ FROM mcr.microsoft.com/vscode/devcontainers/base:0-debian-10
 #    && rm -rf /var/lib/apt/lists/*
 # ENV DEBIAN_FRONTEND=dialog
 
+RUN wget -O /usr/local/bin/dark-cli https://dark-cli.storage.googleapis.com/latest/dark-cli-linux \
+    && chmod +x /usr/local/bin/dark-cli
+
