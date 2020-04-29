@@ -14,3 +14,5 @@ Public site URL: https://avdi-catchupto.builtwithdark.com (for now)
 We assume you're running everything in a container, as defined by the Dockerfile. 
 
 $DARK_PASS needs to be set on the host to Avdi's password. You will have to bribe Avdi with quite a lot of pie for this.
+
+to deploy: `./deploy.sh`
